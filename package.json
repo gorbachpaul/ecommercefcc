@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/calledandrey/ecommercefcc/issues"
   },
-  "homepage": "https://github.com/calledandrey/ecommercefcc#readme"
+  "homepage": "https://github.com/calledandrey/ecommercefcc#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
