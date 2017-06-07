@@ -38,7 +38,7 @@ const config = {
             },
             {
                 test: /\.scss$/,
-                include: /node_modules\/bootstrap\/scss/,
+                include: /node_modules/,
                 use: ExtractTextPlugin.extract({
                     fallback: [{
                         loader: 'style-loader'
