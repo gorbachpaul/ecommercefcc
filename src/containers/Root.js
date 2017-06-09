@@ -7,9 +7,11 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+
 import Home from './Home';
 import Blog from './Blog';
+import Nav from './Nav';
+
 
 const history = createBrowserHistory();
 
@@ -17,10 +19,7 @@ const Root = ({ store, }) => (
     <Provider store={store}>
         <Router history={history}>
             <div>
-                <Nav>
-                    <NavItem><NavLink tag={Link} to="/">Home</NavLink></NavItem>
-                    <NavItem><NavLink tag={Link} to="/blog">Blog</NavLink></NavItem>
-                </Nav>
+                <Nav />
                 <div>
                     <Route exact path="/" component={Home} />
                     <Route path="/blog" component={Blog} />
