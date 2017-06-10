@@ -26,3 +26,5 @@ ___
 5. To open the project in your browser visit:
 
     `http://localhost:9000/`
+
+6. Enjoy
